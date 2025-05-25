@@ -1,0 +1,13 @@
+#include <stdio.h>
+//Pide al usuario un número N y calcula su factorial.
+int main() {
+	int numero,i,result;
+	printf("Ingrese el numero del cual desea ver el factorial\n");
+	scanf("%d", &numero);
+	result=1;
+	for (i=1;i<=numero;i++){
+		result=result*i;
+	}
+	printf("El factorial de %d sera: %d",numero, result);
+	return 0;
+}

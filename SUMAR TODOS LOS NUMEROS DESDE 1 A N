@@ -1,0 +1,13 @@
+#include <stdio.h>
+//El programa debe solicitar al usuario un número N y calcular la suma de los primeros N números entero
+int main() {
+	int numero,i,suma;
+	printf("Ingrese hasta que numero se desea sumar\n");
+	scanf("%d", &numero);
+	suma=0;
+	for (i=1;i<=numero;i++){
+		suma=suma+i;
+	}
+	printf("La sumatoria sera de: %d",suma);
+	return 0;
+}
